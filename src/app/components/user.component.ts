@@ -60,7 +60,7 @@ export class UserComponent  {
         };
         this.hobbies = ['Music', 'Basketball', 'Piano'];
         this.showHobbies = false;
-        this.postsService.getPost().subscribe(posts =>{
+        this.postsService.getPosts().subscribe(posts =>{
             console.log(posts);
         })
     }
