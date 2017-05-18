@@ -8,7 +8,7 @@ const appRoutes: Routes = [
     {
         path: '',
         component: UserComponent
-    }
+    },
     {
         path: 'about',
         component: AboutComponent
