@@ -1,8 +1,15 @@
 import { Component } from '@angular/core';
-import { PostsService} from './services/posts.service';
+
 @Component({
   selector: 'my-app',
-  template: `<user></user>`,
+  template: `
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+    </ul>
+    <hr />
+    <router-outlet></router-outlet>
+    `,
 })
 export class AppComponent  { }
 
