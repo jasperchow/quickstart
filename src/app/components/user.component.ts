@@ -39,7 +39,7 @@ import { PostsService} from '../services/posts.service';
     </form>
     <hr />
     <h3>Posts</h3>
-    <div *ngFor="let post of posts'>
+    <div *ngFor="let post of posts">
         <h3>{{post.title}}</h3>
         <p>{{post.body}}</p>
     </div>
